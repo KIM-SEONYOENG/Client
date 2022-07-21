@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1050084454574",
+    "project_id": "runwith-ab1af",
+    "storage_bucket": "runwith-ab1af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050084454574:android:b3260ab4e604413704fd3f",
+        "android_client_info": {
+          "package_name": "com.ograper.runwith"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050084454574-svb8m9aindkndsi26i9mf7kolce8v5lu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQSvnFDXQBdWpFFykuVojhFSA3ecUmOhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050084454574-svb8m9aindkndsi26i9mf7kolce8v5lu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
