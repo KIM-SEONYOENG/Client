@@ -56,12 +56,13 @@
     <string name="waitMsg">메이트가 아직 신청을 수락\n안했습니다.</string>
     <string name="waitBtn">메이트 신청 취소하기</string>
 
-    //activity_change
-    <string name="change">메이트 신청/변경하기</string>
-    <string name="current">현재 걷기 메이트</string>
+    //fragment_regist_mate.xml
+    <string name="title_register">메이트 신청/변경하기</string>
+    <string name="status_register">현재 걷기 메이트</string>
     <string name="none">없음</string>
     <string name="change_msg">걷기 메이트는 1명만 가능합니다.\n다른 메이트를 추가하면 기존 메이트에서 변경됩니다.</string>
     <string name="friend_id">친구아이디 입력하기</string>
+
     //menu
     <string name="menuBtn1">ME</string>
     <string name="menuBtn2">MATE</string>

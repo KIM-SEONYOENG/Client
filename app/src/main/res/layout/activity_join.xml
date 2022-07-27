@@ -87,6 +87,7 @@
             android:id="@+id/joinMsg"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:textSize="20dp"
             android:text="@string/joinMsg2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/drop"
@@ -131,6 +132,7 @@
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="20dp"
+        android:gravity="center"
         android:text="@string/join_submit_btn" />
 
 </LinearLayout>
