@@ -90,4 +90,9 @@
     <string name="nicname">내 닉네임</string>
     <string name="walkingrecord">걸음기록</string>
     <string name="mate">메이트 신청/변경</string>
+
+    //signUp
+    <string name="str1">이용약관 동의</string>
+    <string name="str2">개인정보이용 동의</string>
+    <string name="detail_btn">자세히 보기</string>
 </resources>
