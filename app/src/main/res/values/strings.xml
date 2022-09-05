@@ -1,0 +1,104 @@
+<resources>
+    //activity_main0
+    <string name="main0msg">런위드는 닉네임으로 계정을 생성하며\n추후 변경이 불가능합니다.</string>
+    <string name="main0btn">확인</string>
+    //MainActivity
+    <string name="app_name">런위드</string>
+    <string name="run_with">
+    우리 같이 걷기하자\nRUN WITH
+    </string>
+    <string name="editTextMain">닉네임</string>
+    <string name="btnMain">계정생성</string>
+    <string name="register">회원가입</string>
+    //activity_main1
+    <string name="main1msg">중복된 닉네임입니다\n다른 닉네임을 선택해주세요</string>
+    <string name="main1btn">확인</string>
+    //activity_main2
+    <string name="main2msg">입력한 닉네임이\n가 맞습니까?</string>
+    <string name="main2btn1">맞습니다</string>
+    <string name="main2btn2">수정하기</string>
+    //MeActivity
+    <string name="title">님의 오늘 걸음</string>
+    <string name="date">2022.06.02.목</string>
+    <string name="helper">도움말</string>
+    <string name="me_text">게으름은 피곤하기 전에 쉬는\n
+        습관일 뿐. - 쥘 르나르 -</string>
+
+    //MeBtnHelper
+    <string name="me_helper">걸음 수는 핸드폰 움직임을 감지하여  걸음 수를\n
+예측하여 표기됩니다. 핸드폰을 가방이나 주머니에\n
+넣어두면 걸음 수가 정확하게 측정되지 않을 수\n
+있습니다. 움직임을 감지하 기 때문에 걷기 기외의\n
+다른 움직임으로도 걸음 수가 증가할 수 있습니다. </string>
+
+    //Mate_btn_helper
+    <string name="title1">메이트</string>
+    <string name="t1">메이트란 걷기 메이트를 의미하며 서로의 기록을 보고\n
+동기부여와 응원을 할 수 있도록 런위드만의 ‘메이트’가\n
+만들어졌습니다. \n</string>
+    <string name="title2">메이트 추가하기</string>
+    <string name="t2">메이트 페이지를 이용하기 위해서는 메이트 추가가\n
+필요합니다. 메뉴에서 메이트를 신청하거나\n
+추후 변경할 수 있습니다. 현재 런위드는 메이트를\n
+1명만 추가하고 기록을 볼 수 있습니다.\n
+메이트를 변경 시 기존 추가한 메이트는 사라지고\n
+새로 변경 신청한 메이트의 기록을 볼 수\n
+있습니다. </string>
+    <string name="title3">메이트 기록보기</string>
+    <string name="t3">메이트의 기록은 걸음 수 밑에 새로고침 버튼을 눌러\n
+누를 때마다 측정된 메이트의 기록을 볼 수 있습니다. </string>
+    <string name="title4">응원메시지 보내기</string>
+    <string name="t4">걸음 수 옆에 확성기 버튼을 눌러 내 메이트에게\n
+응원메시지를 전달할 수 있습니다. 선택한 메시지는\n
+메이트에게 푸시알림으로 전달됩니다. </string>
+
+    //activity_wait
+    <string name="waitMsg">메이트가 아직 신청을 수락\n안했습니다.</string>
+    <string name="waitBtn">메이트 신청 취소하기</string>
+
+    //fragment_regist_mate.xml
+    <string name="title_register">메이트 신청/변경하기</string>
+    <string name="status_register">현재 걷기 메이트</string>
+    <string name="none">없음</string>
+    <string name="change_msg">걷기 메이트는 1명만 가능합니다.\n다른 메이트를 추가하면 기존 메이트에서 변경됩니다.</string>
+    <string name="friend_id">친구아이디 입력하기</string>
+
+    //menu
+    <string name="menuBtn1">ME</string>
+    <string name="menuBtn2">MATE</string>
+    <string name="menuBtn3">MENU</string>
+
+    //invite_page
+    <string name="inviteMsg">티나님이 걷기 메이트를 신청했습니다.\n 수락하시겠습니까?</string>
+
+    //joinMsg
+    <string name="joinMsg0">메시지 보내기</string>
+    <string name="joinMsg1">걷기 메이트</string>
+    <string name="join_submit_btn">전송하기</string>
+    <string name="select_msg">메시지 선택하기</string>
+    <string name="joinMsg2">메시지 선택하기</string>
+    <string name="btnFriend">메이트추가/변경하기</string>
+
+    <string name="etKeyword">친구아이디 입력하기</string>
+    //activity_mate
+    <string name="sendMsg">응원메세지 보내기</string>
+    <string name="joinMsg3">걷기 메이트한테 응원메시지를 보내면\n
+푸시 알림으로 메시지가 전송됩니다 :)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //menu
+    <string name="nicname">내 닉네임</string>
+    <string name="walkingrecord">걸음기록</string>
+    <string name="mate">메이트 신청/변경</string>
+
+    //signUp
+    <string name="str1">이용약관 동의</string>
+    <string name="str2">개인정보이용 동의</string>
+    <string name="detail_btn">자세히 보기</string>
+
+    //dialog_regist_mate
+    <string name="dialogMsg0">성공적으로 메이트 신청이 되었습니다!</string>
+    <string name="dialogMsg1">친구가 요청한 메이트 신청을 수락하면\n걷기 메이트가 결성됩니다.</string>
+    <string name="dialogMsg2">새로운 메이트로 변경되면\n기존 메이트는 사라지고\n새로 변경한 메이트의 기록만 볼 수 있습니다.</string>
+</resources>
