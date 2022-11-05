@@ -46,6 +46,7 @@ public class LoginActivity extends AppCompatActivity {
                 Log.d(TAG, "id = " + id);
                 if("".equals(id)){
                     Toast.makeText(getApplicationContext(), "닉네임을 입력하세요", Toast.LENGTH_SHORT).show();
+                    Log.d(TAG, "id = " + id);
                 }
                 else{
                     userAPI.userAdd(id).enqueue(new Callback<DataResponse>() {
@@ -56,14 +57,17 @@ public class LoginActivity extends AppCompatActivity {
                             if(result == 200){
                                 Log.d(TAG, "성공!");
                                 loginSuccess(id);
+                                Log.d(TAG, "id = " + id);
                                 return;
                             }
                             else if(result == 300){
                                 Toast.makeText(getApplicationContext(),"중복",Toast.LENGTH_SHORT).show();
+                                Log.d(TAG, "id = " + id);
                                 return;
                             }
                             else {
                                 Toast.makeText(getApplicationContext(),"실패",Toast.LENGTH_SHORT).show();
+                                Log.d(TAG, "id = " + id);
                                 return;
                             }
                         }
