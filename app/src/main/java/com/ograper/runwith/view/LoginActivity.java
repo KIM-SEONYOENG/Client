@@ -43,6 +43,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String id = etId.getText().toString();
+                Log.d(TAG, "id = " + id);
                 if("".equals(id)){
                     Toast.makeText(getApplicationContext(), "닉네임을 입력하세요", Toast.LENGTH_SHORT).show();
                 }
@@ -83,9 +84,11 @@ public class LoginActivity extends AppCompatActivity {
         PreferenceAccess preferenceAccess = new PreferenceAccess(getApplicationContext());
         preferenceAccess.setUserName(username);
 
-        Intent fcmIntent = new Intent(getApplicationContext(), FCMService.class);
-        startService(fcmIntent);
+        if(preferenceAccess.setUserName(username)) {
+            Intent fcmIntent = new Intent(getApplicationContext(), FCMService.class);
+            startService(fcmIntent);
 
-        finish();
+            finish();
+        }
     }
 }

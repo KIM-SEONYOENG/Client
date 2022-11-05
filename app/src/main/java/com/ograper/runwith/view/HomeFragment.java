@@ -14,6 +14,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class HomeFragment extends Fragment {
+    private TextView tvTitle;
     private TextView tvStep;
     private TextView tvDate;
 
@@ -25,6 +26,8 @@ public class HomeFragment extends Fragment {
 
         preferenceAccess = new PreferenceAccess(getContext());
 
+        tvTitle = view.findViewById(R.id.tvTitle);
+        tvTitle.setText(preferenceAccess.getUserName() + " 님의 오늘 걸음");
         tvStep = view.findViewById(R.id.tvStep);
         tvStep.setText(String.valueOf(preferenceAccess.getStep()));
         tvDate = view.findViewById(R.id.tvDate);

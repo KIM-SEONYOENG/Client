@@ -61,9 +61,9 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
                 getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, homeFragment).commit(); break;
             case 1 :
                 if(preferenceAccess.isTeam()) {
-                    getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, teamFragment).commit();
-                } else {
                     getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, friendFragment).commit();
+                } else {
+                    getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, teamFragment).commit();
                 }
                 break;
             case 2 :
